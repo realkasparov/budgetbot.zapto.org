@@ -90,6 +90,7 @@ while ($on < 118) { //49
     $new_count = count($responce['result']);
     if (($new_count != $old_count) && ($old_count != 0)) {
 //        ob_flush();
+        echo 11;
 //        flush();
         $api->sendMessage(62611788, "Вы отправили сообщение: ". $responce['result'][($new_count-1)]['message']['text']);
         if ($responce['result'][($new_count-1)]['message']['text'] == 'exit') {
