@@ -1,0 +1,8 @@
+{
+    "name": "BudgetBot/BudgetBot",
+    "type": "project",
+    "require": {
+        "php": ">=5.5.0",
+        "telegram-bot/api": "^2.2"
+    }
+}
